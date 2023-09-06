@@ -9,28 +9,32 @@
 }
 
 :root {
-    --primary-hue: 270;
-    --black-lightness: 15%;
-    --dark-lightness: 44%;
-    --light-lightness: 94%;
+    --primary-hue: 210;
+    --black-lightness: 10%;
+    --dark-lightness: 25%;
+    --light-lightness: 80%;
     --white-lightness: 100%;
-    --color-primary: hsl(var(--primary-hue), 89%, 41%);
-    --color-white: hsl(var(--primary-hue), 5%, var(--light-lightness));
-    --color-black: hsl(var(--primary-hue), 5%, var(--black-lightness));
-    --color-dark: hsl(var(--primary-hue), 5%, var(--dark-lightness));
+    --color-primary: hsl(var(--primary-hue), 50%, 50%); /* A lighter blue color */
+    --color-white: hsl(0, 0%, var(--white-lightness));
+    --color-black: hsl(0, 0%, var(--black-lightness));
+    --color-dark: hsl(0, 0%, var(--dark-lightness));
 
     /* General container */
-    --container-width-lg: 76%;
+    --container-width-lg: 75%;
     --container-width-md: 90%;
 
     /* Border Radius */
-    --border-radius-1: 1.2rem;
-    --border-radius-2: 0.8rem;
+    --border-radius-1: 1rem;
+    --border-radius-2: 0.75rem;
     --border-radius-3: 0.5rem;
 
     /* General Transition */
-    --transition: all 500ms ease;
+    --transition: all 0.3s ease-in-out;
 }
+
+
+
+
 
 html {
     scroll-behavior: smooth; /* Make scrolling the website smooth */
