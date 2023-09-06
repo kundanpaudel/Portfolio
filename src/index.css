@@ -18,6 +18,7 @@
     --color-white: hsl(0, 0%, var(--white-lightness));
     --color-black: hsl(0, 0%, var(--black-lightness));
     --color-dark: hsl(0, 0%, var(--dark-lightness));
+    --color-light: hsl(var(--primary-hue), 5%, var(--light-lightness));
 
     /* General container */
     --container-width-lg: 75%;
@@ -160,6 +161,10 @@ img {
 
  .btn.sm{ /* for smaller buttons used in website */
     padding: 0.5rem 1.2rem;
+ }
+
+ .btn.light {
+    background: rgb(179, 179, 183);
  }
 
  /* MEDIA QUERIES (tablets) */
