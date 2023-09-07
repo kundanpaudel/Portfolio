@@ -68,7 +68,7 @@ header {
     }
 }
 
-@media screen and (mad-width: 600px) {
+@media screen and (max-width: 600px) {
     header{
         margin-top: 0;
         width: 14rem;
