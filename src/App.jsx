@@ -1,11 +1,11 @@
 import Navbar from "./sections/navbar/Navbar";
 import Header from "./sections/header/Header";
 import About from "./sections/about/About";
-import Faq from "./sections/faq/Faq";
+import Faq from "./sections/faq/Faqs";
 import Footer from "./sections/footer/Footer";
 import Contact from "./sections/contact/Contact";
 import Portfolio from "./sections/portfolio/Portfolio";
-import Floatnav from "./sections/floatnav/Floatnav";
+// import Floatnav from "./sections/floatnav/Floatnav";
 
 const App = () => {
   return (
@@ -17,7 +17,7 @@ const App = () => {
       <Contact/>
       <Faq/>
       <Footer/>
-      <Floatnav/>
+      {/* <Floatnav/> */}
     </main>
   )
 }

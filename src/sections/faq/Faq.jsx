@@ -1,9 +1,24 @@
-import './faq.css'
+import Card from "../../components/Cards"
+import {AiOutlinePlus, AiOutlineMinus} from 'react-icons/ai'
+import { useState } from "react"
 
-const faq = () => {
+
+const FAQ = ({faq}) => {
+    const [showAnswer, setShowAnswer] = useState(false);
+
+
+
   return (
-    <section id="faq"><h2>FAQ</h2></section>
+    <Card className="faq" onClick={() => setShowAnswer(prev => !prev)}>
+        <div>
+            <h5 className="faq__question">{faq.question}</h5>
+            <button className="faq__icon">
+                {showAnswer ? <AiOutlineMinus/> : <AiOutlinePlus/>}
+            </button>
+        </div>
+        {showAnswer && <p className="faq__answer">{faq.answer}</p>}
+    </Card>
   )
 }
 
-export default faq
+export default FAQ
