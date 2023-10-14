@@ -17,7 +17,7 @@ const projects = [
         id: 2,
         category: 'Personal',
         image: Image2,
-        title: "Personal Portfolio (Aug 2023 - Sep 2023)",
+        title: "Personal Portfolio (Aug 2023 - Current)",
         desc: "A portfolio website to display my recent projects. Implemented frontend and design aspects of the website using React, HTML and CSS.",
         
         github: 'https://github.com/kundanpaudel/Portfolio'
@@ -26,7 +26,7 @@ const projects = [
         id: 3,
         category: 'Personal',
         image: Image3,
-        title: "Interview Assistant",
+        title: "Interview Assistant (Sep 2023 - Oct 2023)",
         desc: "A OpenAI powered interview assisstant that helps with behavioral questions asked in interviews. Implemented using FastAPI, HTML, Bootstrap, and deployed on AWS.",
         demo: 'https://tsy6pdgvp2cqzvswkhe2zig6cy0sfprr.lambda-url.us-east-2.on.aws/',
         github: '#'
