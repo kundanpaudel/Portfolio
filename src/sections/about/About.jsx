@@ -1,5 +1,5 @@
 import './about.css'
-import AboutPicture from '../../assets/kpabout.jpg'
+import AboutPicture from '../../assets/kpabout.png'
 import Resume from '../../assets/resume.pdf'
 import {MdCloudDownload} from 'react-icons/md'
 import Cards from '../../components/Cards'
