@@ -1,6 +1,6 @@
 import Image1 from '../../assets/kpproject1.png'
 import Image2 from '../../assets/kpproject2.jpg'
-import Image3 from '../../assets/project3.jpg'
+import Image3 from '../../assets/project3.png'
 
 
 const projects = [
@@ -26,10 +26,10 @@ const projects = [
         id: 3,
         category: 'Personal',
         image: Image3,
-        title: "Trip Splitter (Currently Working)",
-        desc: "A web application implemented using Google Maps and Directions API that splits trips into parts and recommends rest stops. DEMO AVAILABLE",
-        demo: '#',
-        github: 'https://github.com/'
+        title: "Interview Assistant",
+        desc: "A OpenAI powered interview assisstant that helps with behavioral questions asked in interviews. Implemented using FastAPI, HTML, Bootstrap, and deployed on AWS.",
+        demo: 'https://tsy6pdgvp2cqzvswkhe2zig6cy0sfprr.lambda-url.us-east-2.on.aws/',
+        github: '#'
     }
 ]
 
